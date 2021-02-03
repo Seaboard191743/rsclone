@@ -1,0 +1,28 @@
+.searchBlock {
+  width: min(900px, 90%);
+  height: 50px;
+}
+.searchField {
+  border: none;
+  width: 100%;
+  height: 30px;
+  padding: 5px 3rem;
+  border-bottom: 1px solid var(--lightGrey);
+}
+.searchIcon {
+  color: var(--middleGrey);
+  position: relative;
+  bottom: 23px;
+  left: 1rem;
+}
+.closeIcon {
+  position: absolute;
+  left: 50%;
+  top: 0.6rem;
+  color: var(--lightGreyDeep);
+  cursor: pointer;
+  display: none;
+}
+.closeIcon--active {
+  display: block;
+}

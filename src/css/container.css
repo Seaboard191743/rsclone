@@ -1,0 +1,10 @@
+.container {
+  padding: 1rem;
+  /* background: var(--darkBlue); */
+  background: var(--mainWhite);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s;
+}
