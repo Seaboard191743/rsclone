@@ -1,6 +1,7 @@
-@import "./root.css";
-@import "./container.css";
-@import "./searchField.css";
-@import "./slider.css";
-@import "./collection.css";
-@import "./audioContainer.css";
+@import './root.css';
+@import './container.css';
+@import './searchField.css';
+@import './slider.css';
+@import './collection.css';
+@import './audioContainer.css';
+@import './footer.css';

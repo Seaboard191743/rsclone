@@ -1,0 +1,61 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: min(1920px, 100%);
+  margin: 0 auto;
+  min-height: 8vh;
+  padding: 0.5rem 2rem;
+  background: #bdbdbd;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+}
+.rsschool__logo {
+  width: 70px;
+}
+.footer__rsschool {
+  display: flex;
+  align-items: center;
+}
+.github__logo {
+  width: 30px;
+  transition: all 0.3s;
+}
+.taskYear {
+  margin-left: 20px;
+  color: #1a2c42;
+}
+.footer__links {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+}
+.linksContainer {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.links__item {
+  color: #757575;
+  font-weight: 700;
+}
+.links__item:hover {
+  color: #1a2c42;
+}
+
+@media (max-width: 650px) {
+  .footer {
+    position: relative;
+    top: 0;
+  }
+}
+@media (max-width: 420px) {
+  .github__logo {
+    opacity: 0;
+  }
+}
+@media (max-width: 370px) {
+  .github__logo {
+    display: none;
+  }
+}
