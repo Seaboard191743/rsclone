@@ -28,6 +28,7 @@ body {
 
 .container {
   padding: 1rem;
+  padding-bottom: 0;
   /* background: var(--darkBlue); */
   background: var(--mainWhite);
   min-height: 100vh;
@@ -170,6 +171,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   justify-content: center;
+  margin-bottom: 7rem;
 }
 .listArtists {
   width: min(350px, 100%);
@@ -374,20 +376,21 @@ body {
   box-shadow: 0 0 3px 3px rgba(255, 106, 61, 0.7);
 }
 
+.footer__container {
+  background: var(--darkGrey);
+}
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: min(1920px, 100%);
+  width: min(900px, 100%);
   margin: 0 auto;
   min-height: 8vh;
-  padding: 0.5rem 2rem;
-  background: var(--darkGrey);
+  padding: 1rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   align-items: center;
 }
 .rsschool__logo {
   width: 70px;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
 }
 .footer__rsschool {
   display: flex;
@@ -395,6 +398,7 @@ body {
 }
 .github__logo {
   width: 30px;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
   transition: all 0.3s;
 }
 .taskYear {

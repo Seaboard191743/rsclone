@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   justify-content: center;
+  margin-bottom: 7rem;
 }
 .listArtists {
   width: min(350px, 100%);

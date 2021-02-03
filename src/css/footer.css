@@ -1,17 +1,18 @@
+.footer__container {
+  background: var(--darkGrey);
+}
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: min(1920px, 100%);
+  width: min(900px, 100%);
   margin: 0 auto;
   min-height: 8vh;
-  padding: 0.5rem 2rem;
-  background: var(--darkGrey);
+  padding: 1rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   align-items: center;
 }
 .rsschool__logo {
   width: 70px;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
 }
 .footer__rsschool {
   display: flex;
@@ -19,6 +20,7 @@
 }
 .github__logo {
   width: 30px;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
   transition: all 0.3s;
 }
 .taskYear {
