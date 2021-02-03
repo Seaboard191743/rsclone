@@ -5356,7 +5356,6 @@ function setAudioAttr(artist, current) {
   _config.artistTrack.textContent = `${newArtistList[current].trackTitle}`;
   _config.trackAlbum.textContent = `From the album: ${newArtistList[current].album}`;
   currentSongMarker(current);
-  console.log(current);
   return newArtistList;
 }
 
