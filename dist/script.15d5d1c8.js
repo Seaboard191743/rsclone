@@ -6235,6 +6235,15 @@ function renderSlides(artist) {
   _config.slideContainer.classList.add('slideContainer--active');
 
   _config.slideContainer.innerHTML = '';
+
+  if (artist.length < 1) {
+    const markUp = `
+      <h1 class = "emptyQuery">No result found.</h1>
+    `;
+
+    _config.slideContainer.insertAdjacentHTML('afterbegin', markUp);
+  }
+
   artist.forEach(item => {
     const markUp = `
       <div class = "slide">

@@ -92,6 +92,12 @@ export function stopDiscRotation() {
 export function renderSlides(artist) {
   slideContainer.classList.add('slideContainer--active');
   slideContainer.innerHTML = '';
+  if (artist.length < 1) {
+    const markUp = `
+      <h1 class = "emptyQuery">No result found.</h1>
+    `;
+    slideContainer.insertAdjacentHTML('afterbegin', markUp);
+  }
   artist.forEach(item => {
     const markUp = `
       <div class = "slide">

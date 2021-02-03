@@ -20,6 +20,11 @@
   top: -100%;
   transition: all 0.3s;
 }
+.emptyQuery {
+  font-size: clamp(1.2rem, 2rem, 4vw);
+  color: var(--darkGrey);
+  place-self: center;
+}
 .slideContainer--active {
   position: relative;
   top: 0;
