@@ -48,6 +48,10 @@ body {
   height: 30px;
   padding: 5px 3rem;
   border-bottom: 1px solid var(--lightGrey);
+  color: var(--middleGrey);
+}
+.searchField::placeholder {
+  color: var(--lightGreyDeep);
 }
 .searchIcon {
   color: var(--middleGrey);
