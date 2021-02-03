@@ -95,7 +95,6 @@ export function setAudioAttr(artist, current) {
   artistTrack.textContent = `${newArtistList[current].trackTitle}`;
   trackAlbum.textContent = `From the album: ${newArtistList[current].album}`;
   currentSongMarker(current);
-  console.log(current);
 
   return newArtistList;
 }
