@@ -5,7 +5,7 @@
   margin: 0 auto;
   min-height: 8vh;
   padding: 0.5rem 2rem;
-  background: #bdbdbd;
+  background: var(--darkGrey)
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 .taskYear {
   margin-left: 20px;
-  color: #1a2c42;
+  color: var(--lightGreyDeep);
 }
 .footer__links {
   justify-self: end;
@@ -36,11 +36,11 @@
   flex-direction: column;
 }
 .links__item {
-  color: #757575;
+  color: var(--lightGreyDeep);
   font-weight: 700;
 }
 .links__item:hover {
-  color: #1a2c42;
+  color: var(--middleGrey);
 }
 
 @media (max-width: 650px) {
